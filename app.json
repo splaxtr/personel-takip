@@ -1,0 +1,49 @@
+{
+  "expo": {
+    "name": "Gökmen İnşaat",
+    "slug": "personel-takip",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "scheme": "personeltakip",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "platforms": [
+      "ios",
+      "android"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#FFFFFF",
+        "foregroundImage": "./assets/images/android-icon-foreground.png",
+        "backgroundImage": "./assets/images/android-icon-background.png",
+        "monochromeImage": "./assets/images/android-icon-monochrome.png"
+      },
+      "edgeToEdgeEnabled": true,
+      "permissions": [],
+      "blockedPermissions": [
+        "INTERNET"
+      ],
+      "package": "com.gokmeninsaat.splaxtr"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/images/splash-icon.png",
+          "imageWidth": 200,
+          "resizeMode": "contain",
+          "backgroundColor": "#FFFFFF"
+        }
+      ],
+      "@react-native-community/datetimepicker"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}
